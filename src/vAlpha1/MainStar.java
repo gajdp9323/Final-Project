@@ -1,5 +1,4 @@
-//Creator's Philip G. and Samuel M.
-
+//Philip G. and Samuel M. - Project AlphaStar
 package vAlpha1;
 
 public class MainStar {
