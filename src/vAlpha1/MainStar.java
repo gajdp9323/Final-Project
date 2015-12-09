@@ -4,6 +4,6 @@ package vAlpha1;
 public class MainStar {
 
     public static void main(String[] args) {
-        
+        FraMain fraMain = new FraMain();
     }
 }
