@@ -11,6 +11,7 @@ public class PanDisp extends JPanel // panel definition
     private String sLabel;
 
     public PanDisp() {
+        setBackground(Color.gray);
         lblName = new JLabel(" Barney");
         add(lblName); //add it to the Frame
     }
