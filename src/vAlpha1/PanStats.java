@@ -10,14 +10,20 @@ public class PanStats extends JPanel // panel definition
 {
     //PanDisp panDisp;
     //String sName;
+    private JLabel Player1;
+    private JLabel Player2;
 
     public PanStats(PanDisp _panDisp) {
         setBackground(Color.red);
-        //panDisp = _panDisp;
-        JButton btn1 = new JButton("Settings");
-        //JButton btn2 = new JButton("Ethyl");
+        Player1 = new JLabel("Player1: ");
+        Player2  = new JLabel("Player2: ");
+        add(Player1);
+        add(Player2);
+        /*panDisp = _panDisp;
+        JButton btn1 = new JButton("Fred");
+        JButton btn2 = new JButton("Ethyl");
         add(btn1);
-        //add(btn2);
+        add(btn2);
 
         /*class LabelChangeListener implements ActionListener {
 
