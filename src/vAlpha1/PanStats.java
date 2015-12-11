@@ -3,8 +3,8 @@ package vAlpha1;
 
 import java.awt.Color;
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+//import java.awt.event.ActionEvent;
+//import java.awt.event.ActionListener;
 
 public class PanStats extends JPanel // panel definition
 {
@@ -13,11 +13,11 @@ public class PanStats extends JPanel // panel definition
 
     public PanStats(PanDisp _panDisp) {
         setBackground(Color.red);
-        /*panDisp = _panDisp;
-        JButton btn1 = new JButton("Fred");
-        JButton btn2 = new JButton("Ethyl");
+        //panDisp = _panDisp;
+        JButton btn1 = new JButton("Settings");
+        //JButton btn2 = new JButton("Ethyl");
         add(btn1);
-        add(btn2);
+        //add(btn2);
 
         /*class LabelChangeListener implements ActionListener {
 
