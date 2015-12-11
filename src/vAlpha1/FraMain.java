@@ -8,7 +8,7 @@ public class FraMain extends JFrame {
     FraMain() {
         PanMain panMain = new PanMain();
         setSize(400, 400);
-        setTitle("Empty Frame");
+        setTitle("Space Battle");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         add(panMain);
         setVisible(true);

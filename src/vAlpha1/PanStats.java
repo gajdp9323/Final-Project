@@ -1,3 +1,4 @@
+//Philip
 package vAlpha1;
 
 import java.awt.Color;
@@ -5,20 +6,20 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class PanLabelChange extends JPanel // panel definition
+public class PanStats extends JPanel // panel definition
 {
-    PanDisp panDisp;
-    String sName;
+    //PanDisp panDisp;
+    //String sName;
 
-    public PanLabelChange(PanDisp _panDisp) {
+    public PanStats(PanDisp _panDisp) {
         setBackground(Color.red);
-        panDisp = _panDisp;
+        /*panDisp = _panDisp;
         JButton btn1 = new JButton("Fred");
         JButton btn2 = new JButton("Ethyl");
         add(btn1);
         add(btn2);
 
-        class LabelChangeListener implements ActionListener {
+        /*class LabelChangeListener implements ActionListener {
 
             public void actionPerformed(ActionEvent event) {
                 JButton btn = (JButton) event.getSource();
@@ -28,6 +29,6 @@ public class PanLabelChange extends JPanel // panel definition
         }
         ActionListener labelChangeListener = new LabelChangeListener();
         btn1.addActionListener(labelChangeListener);
-        btn2.addActionListener(labelChangeListener);
+        btn2.addActionListener(labelChangeListener);*/
     }
 }
