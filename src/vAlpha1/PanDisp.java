@@ -9,12 +9,18 @@ public class PanDisp extends JPanel // panel definition
 {
     //private JLabel lblName;
     //private String sLabel;
+    Image img = Toolkit.getDefaultToolkit().createImage("background.jpg");
 
     public PanDisp() {
-        setBackground(Color.black);
+
+        //add(lblName); //add it to the Frame
+    }
+    public void paint(Graphics g)
+    {
+        // Draws the img to the BackgroundPanel.
+        g.drawImage(img, 0, 0, null);
         JButton btn1 = new JButton("Start");
         add(btn1);
-        //add(lblName); //add it to the Frame
     }
     
     class LabelChangeListener implements ActionListener {
