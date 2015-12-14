@@ -2,8 +2,8 @@ package vAlpha1;
 
 import javax.swing.*;
 import java.awt.*;
-//import java.awt.event.ActionEvent;
-//import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class PanDisp extends JPanel // panel definition
 {
@@ -12,10 +12,16 @@ public class PanDisp extends JPanel // panel definition
 
     public PanDisp() {
         setBackground(Color.black);
-        //lblName = new JLabel(" Barney");
         JButton btn1 = new JButton("Start");
         add(btn1);
         //add(lblName); //add it to the Frame
+    }
+    
+    class LabelChangeListener implements ActionListener {
+
+            public void actionPerformed(ActionEvent event) {
+                JButton btn1 = (JButton) event.getSource();
+            }
     }
 
     /*void UpdateLabel(String _sNew) {
