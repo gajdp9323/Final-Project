@@ -10,7 +10,6 @@ import java.awt.*;
  *
  * @author gajdp9323
  */
-public class PanGame {
 
 public class PanGame extends JPanel // panel definition
 {
@@ -26,5 +25,4 @@ public class PanGame extends JPanel // panel definition
         sLabel = _sNew;
         lblName.setText(sLabel);
     }    
-}
 }
