@@ -10,7 +10,6 @@ public class PanDisp extends JPanel // panel definition
     //private JLabel lblName;
     //private String sLabel;
     Image img = Toolkit.getDefaultToolkit().createImage("background.jpg");
-
     public PanDisp() {
         //add(lblName); //add it to the Frame
     }
