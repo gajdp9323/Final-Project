@@ -1,5 +1,4 @@
 //Philip
-//For Samuel By: Gajatthews
 package vAlpha1;
 
 import java.awt.Color;
@@ -35,7 +34,7 @@ public class PanStats extends JPanel // panel definition
         JButton btn2 = new JButton("Ethyl");
         add(btn1);
         add(btn2);
-
+        * //For Samuel By: Gajatthews
         /*class LabelChangeListener implements ActionListener {
 
             public void actionPerformed(ActionEvent event) {
