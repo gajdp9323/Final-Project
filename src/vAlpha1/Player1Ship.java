@@ -25,12 +25,27 @@ public class Player1Ship {
                 if (dShipAngle>=0 && dShipAngle<90) {
                     
                 }
-                else if (dShipAngle>270) {
+                else if (dShipAngle>=90 && dShipAngle<180) {
+                    
+                }
+                else if (dShipAngle>=180 && dShipAngle<270) {
+                    
+                }
+                else if (dShipAngle>=270 && dShipAngle<360) {
                     
                 }
             }
             if(KeyCode == KeyEvent.VK_S){
-           	if (dShipAngle!=270) {
+           	if (dShipAngle>=0 && dShipAngle<90) {
+                    
+                }
+                else if (dShipAngle>=90 && dShipAngle<180) {
+                    
+                }
+                else if (dShipAngle>=180 && dShipAngle<270) {
+                    
+                }
+                else if (dShipAngle>=270 && dShipAngle<360) {
                     
                 }
             }
@@ -40,7 +55,6 @@ public class Player1Ship {
             if(KeyCode == KeyEvent.VK_D){
                 dShipAngle -= dRotateSpeed;
             }
-            //if (key 'w' pressed)
         }
     }
 }

@@ -1,4 +1,5 @@
 //Philip
+//For Samuel By: Gajatthews
 package vAlpha1;
 
 import java.awt.Color;
