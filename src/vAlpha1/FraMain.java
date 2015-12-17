@@ -11,7 +11,7 @@ public class FraMain extends JFrame {
         setSize(400, 400);
         setTitle("Space Battle");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setMinimumSize(new Dimension(400, 400));
+        setMinimumSize(new Dimension(600, 400));
         setMaximumSize(new Dimension(800, 800));
         add(panMain);
         setVisible(true);

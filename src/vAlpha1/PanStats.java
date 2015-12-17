@@ -19,10 +19,10 @@ public class PanStats extends JPanel // panel definition
 
     public PanStats(PanDisp _panDisp) {
         setBackground(Color.red);
-        Player1Lives = new JLabel(" Player1 Lives: 5 ");
-        Player1Score = new JLabel(" Player1 Score: 3750 ");
+        Player1Lives = new JLabel(" Player1 Lives: 4 ");
+        Player1Score = new JLabel(" Player1 Score: 750 ");
         Timer  = new JLabel (" Time 1:15 ");
-        Player2Score  = new JLabel(" Player2 Score: 3750 ");
+        Player2Score  = new JLabel(" Player2 Score: 1750 ");
         Player2Lives  = new JLabel(" Player2 Lives: 5 ");
         add(Player1Lives);
         add(Player1Score);
