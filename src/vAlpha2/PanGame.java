@@ -20,15 +20,6 @@ public class PanGame extends JPanel // panel definition
     {
         // Draws the img to the BackgroundPanel.
         g.drawImage(img, 0, 0, null);
-        JButton btn1 = new JButton("Start");
-        add(btn1);
-    }
-    
-    class LabelChangeListener implements ActionListener {
-
-            public void actionPerformed(ActionEvent event) {
-                JButton btn1 = (JButton) event.getSource();
-            }
     }
 
     /*void UpdateLabel(String _sNew) {
