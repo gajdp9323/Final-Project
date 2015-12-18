@@ -31,22 +31,5 @@ public class PanStats extends JPanel // panel definition
         add(Timer);
         add(Player2Score);
         add(Player2Lives);
-        /*panDisp = _panDisp;
-        JButton btn1 = new JButton("Fred");
-        JButton btn2 = new JButton("Ethyl");
-        add(btn1);
-        add(btn2);
-        * //For Samuel By: Gajatthews
-        /*class LabelChangeListener implements ActionListener {
-
-            public void actionPerformed(ActionEvent event) {
-                JButton btn = (JButton) event.getSource();
-                sName = btn.getText(); // gets the text value of the button
-                panDisp.UpdateLabel(sName);
-            }
-        }
-        ActionListener labelChangeListener = new LabelChangeListener();
-        btn1.addActionListener(labelChangeListener);
-        btn2.addActionListener(labelChangeListener);*/
     }
 }
