@@ -12,7 +12,7 @@ import java.awt.event.*;
  */
 public class Player1Ship {
     Image imgPlayer1 = Toolkit.getDefaultToolkit().createImage("JavaShipP1.png");
-    double dAccel, dMaxSpeed, dRotateNegativeAccel, dRotateSpeed = 0.1, dShipAngle;
+    double dMaxSpeed = 1, dRotateSpeed = 0.1, dShipAngle, dY, dX;
     Graphics g;
     public Player1Ship(KeyEvent e) {
         //KeyEvent event
