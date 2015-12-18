@@ -21,7 +21,7 @@ public class PanDisp extends JPanel // panel definition
     class LabelChangeListener implements ActionListener {
 
             public void actionPerformed(ActionEvent event) {
-                JButton btn1 = (JButtonA) event.getSource();
+                JButton btn1 = (JButton) event.getSource();
             }
     }   
 }
