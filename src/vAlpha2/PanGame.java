@@ -1,6 +1,5 @@
 package vAlpha2;
 
-import vAlpha1.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -18,6 +17,8 @@ public class PanGame extends JPanel // panel definition
     }
     public void paint(Graphics g)
     {
+        revalidate();
+        repaint();
         // Draws the img to the BackgroundPanel.
         g.drawImage(img, 0, 0, null);
     }

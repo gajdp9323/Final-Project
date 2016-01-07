@@ -47,14 +47,14 @@ public class FraMain extends JFrame {
             dNewWidth = nSetWidth;
             dNewHeight = nSetWidth*nHEIGHT_RATIO;
         }
-        int x1 = (int) dNewWidth;
-        int y1 = (int) dNewHeight;
-        System.out.println("W: " + x1 + " H: " + y1);
+        int nX1 = (int) dNewWidth;
+        int nY1 = (int) dNewHeight;
+        System.out.println("W: " + nX1 + " H: " + nY1);
         Rectangle r = arg0.getComponent().getBounds();
-        arg0.getComponent().setBounds(r.x, r.y, x1, y1);
+        arg0.getComponent().setBounds(r.x, r.y, nX1, nY1);
         isWidthChanged = false;
         isHeightChanged = false;
-        nOldWidth = x1;
-        nOldHeight = y1;
+        nOldWidth = nX1;
+        nOldHeight = nY1;
     }
 }
