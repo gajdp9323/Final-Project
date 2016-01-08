@@ -15,20 +15,21 @@ public class PanStats extends JPanel // panel definition
     private JLabel Player2Lives;
     private JLabel Player1Score;
     private JLabel Player2Score;
-    int nPlayer1Lives = 4, nPlayer2Lives = 5, nPlayer1Score = 750,nPlayer2Score = 1750, nTimeMin = 1, nTimeSec = 15;
+    int nPlayer1Lives = 5, nPlayer2Lives = 5, nPlayer1Score = 0,nPlayer2Score = 0;
+    //int nTimeMin = 1, nTimeSec = 15;
     
-    private JLabel Timer;
+    //private JLabel Timer;
 
     public PanStats(PanDisp _panDisp) {
         setBackground(Color.red);
         Player1Lives = new JLabel(" Player1 Lives: "+ nPlayer1Lives);
         Player1Score = new JLabel(" Player1 Score: "+ nPlayer1Score);
-        Timer  = new JLabel (" Time "+ nTimeMin + ":" + nTimeSec);
+        //Timer  = new JLabel (" Time "+ nTimeMin + ":" + nTimeSec);
         Player2Score  = new JLabel(" Player2 Score: "+ nPlayer2Score);
         Player2Lives  = new JLabel(" Player2 Lives: "+ nPlayer2Lives);
         add(Player1Lives);
         add(Player1Score);
-        add(Timer);
+        //add(Timer);
         add(Player2Score);
         add(Player2Lives);
     }
