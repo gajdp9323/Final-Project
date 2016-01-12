@@ -88,7 +88,7 @@ class KeyListenerTester extends JFrame implements KeyListener {
                 nScore+=100;
                 nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2; //to shorten code since this in repeated alot
             }
-            else nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
+            else nX1Temp = nX1;
         }
         if (e.getKeyCode() == KeyEvent.VK_LEFT) {
             System.out.println("Left key Released");
@@ -99,7 +99,7 @@ class KeyListenerTester extends JFrame implements KeyListener {
                 nScore+=100;
                 nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
             }
-            else nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
+            else nX1Temp = nX1;
         }
         if (e.getKeyCode() == KeyEvent.VK_UP) {
             System.out.println("Up key Released");
@@ -110,7 +110,7 @@ class KeyListenerTester extends JFrame implements KeyListener {
                 nScore+=100;
                 nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
             }
-            else nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
+            else nY1Temp = nY1;
         }
         if (e.getKeyCode() == KeyEvent.VK_DOWN) {
             System.out.println("Down key Released");
@@ -121,7 +121,7 @@ class KeyListenerTester extends JFrame implements KeyListener {
                 nScore+=100;
                 nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
             }
-            else nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
+            else nY1Temp = nY1;
         }
         if (e.getKeyCode() == KeyEvent.VK_W) {
             System.out.println("W key Released");
@@ -132,7 +132,7 @@ class KeyListenerTester extends JFrame implements KeyListener {
                 nScore+=100;
                 nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
             }
-            else nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
+            else nY2Temp = nY2;
         }
         if (e.getKeyCode() == KeyEvent.VK_A) {
             System.out.println("A key Released");
@@ -143,7 +143,7 @@ class KeyListenerTester extends JFrame implements KeyListener {
                 nScore+=100;
                 nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
             }
-            else nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
+            else nX2Temp = nX2;
         }
         if (e.getKeyCode() == KeyEvent.VK_S) {
             System.out.println("S key Released");
@@ -154,7 +154,7 @@ class KeyListenerTester extends JFrame implements KeyListener {
                 nScore+=100;
                 nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
             }
-            else nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
+            else nY2Temp = nY2;
         }
         if (e.getKeyCode() == KeyEvent.VK_D) {
             System.out.println("D key Released");
@@ -165,7 +165,7 @@ class KeyListenerTester extends JFrame implements KeyListener {
                 nScore+=100;
                 nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2;
             }
-            else nX1Temp = nX1; nX2Temp = nX2; nY1Temp = nY1; nY2Temp = nY2; 
+            else nX2Temp = nX2; 
         }
     }
     public void paint(Graphics g) {
@@ -174,7 +174,7 @@ class KeyListenerTester extends JFrame implements KeyListener {
         revalidate();
         repaint();
         g.setColor(Color.WHITE);
-        g.fillRect(0, 0, 1000, 1000);
+        g.fillRect(0, 0, 2000, 2000);
         g.setColor(Color.RED);
         g.fillRect (nX1, nY1, 5, 5);
         g.setColor(Color.BLUE);
