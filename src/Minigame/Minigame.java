@@ -217,7 +217,7 @@ class Minigame extends JFrame implements KeyListener {
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
-                nY1BulletUP-=1;
+                nY1BulletUP-=2;
                     //System.out.println("1Not working");
             }
             if (nDirection == 2) {
@@ -229,7 +229,7 @@ class Minigame extends JFrame implements KeyListener {
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
-                nX1BulletSIDE+=1;
+                nX1BulletSIDE+=2;
                     //System.out.println("2Not working");
             }
             if (nDirection == 3) {
@@ -241,7 +241,7 @@ class Minigame extends JFrame implements KeyListener {
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
-                nY1BulletUP+=1;
+                nY1BulletUP+=2;
                 //System.out.println("3Not working");
             }
             if (nDirection == 4) {
@@ -253,7 +253,7 @@ class Minigame extends JFrame implements KeyListener {
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
-                nX1BulletSIDE-=1;
+                nX1BulletSIDE-=2;
                 //System.out.println("4Not working");
             }
         }
@@ -268,7 +268,7 @@ class Minigame extends JFrame implements KeyListener {
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
-                nY2BulletUP-=1;
+                nY2BulletUP-=2;
                 //System.out.println("5Not working");
             }
             if (nDirection == 2) {
@@ -280,7 +280,7 @@ class Minigame extends JFrame implements KeyListener {
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
-                nX2BulletSIDE+=1;
+                nX2BulletSIDE+=2;
                 //System.out.println("6Not working");
             }
             if (nDirection == 3) {
@@ -293,7 +293,7 @@ class Minigame extends JFrame implements KeyListener {
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
-                nY2BulletUP+=1;
+                nY2BulletUP+=2;
                 //System.out.println("7Not working");
             }
             if (nDirection == 4) {
@@ -306,7 +306,7 @@ class Minigame extends JFrame implements KeyListener {
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
-                nX2BulletSIDE-=1;
+                nX2BulletSIDE-=2;
                 //System.out.println("8Not working");
             }
         }
