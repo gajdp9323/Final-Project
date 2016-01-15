@@ -6,7 +6,7 @@ import java.awt.Dimension;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.Graphics;
-import java.awt.Color;
+//import java.awt.Color;
 import java.awt.Image;
 import java.awt.Toolkit;
 
@@ -213,7 +213,7 @@ class Minigame extends JFrame implements KeyListener {
                     nLooping=1;
                 }
                 else if (nY1BulletUP>(nYE-15) && nY1BulletUP<(nYE+15) && nX1BulletUP>(nXE-15)&& nX1BulletUP<(nXE+15)) {
-                    nScore1+=10000;
+                    nScore1+=5;
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
@@ -225,7 +225,7 @@ class Minigame extends JFrame implements KeyListener {
                     nLooping=1;
                 }
                 else if (nY1BulletSIDE>(nYE-15) && nY1BulletSIDE<(nYE+15) && nX1BulletSIDE>(nXE-15)&& nX1BulletSIDE<(nXE+15)) {
-                    nScore1+=1000;
+                    nScore1+=5;
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
@@ -237,7 +237,7 @@ class Minigame extends JFrame implements KeyListener {
                     nLooping=1;
                 }
                 else if (nY1BulletUP>(nYE-15) && nY1BulletUP<(nYE+15) && nX1BulletUP>(nXE-15)&& nX1BulletUP<(nXE+15)) {
-                    nScore1+=1000;
+                    nScore1+=5;
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
@@ -249,7 +249,7 @@ class Minigame extends JFrame implements KeyListener {
                     nLooping=1;
                 }
                 else if (nY1BulletSIDE>(nYE-15) && nY1BulletSIDE<(nYE+15) && nX1BulletSIDE>(nXE-15)&& nX1BulletSIDE<(nXE+15)) {
-                    nScore1+=1000;
+                    nScore1+=5;
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
@@ -264,7 +264,7 @@ class Minigame extends JFrame implements KeyListener {
                     nLooping=1;
                 }
                 else if (nY2BulletUP>(nYE-15) && nY2BulletUP<(nYE+15) && nX2BulletSIDE>(nXE-15)&& nX2BulletSIDE<(nXE+15)) {
-                    nScore2+=1000;
+                    nScore2+=5;
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
@@ -276,7 +276,7 @@ class Minigame extends JFrame implements KeyListener {
                     nLooping=1;
                 }
                 else if (nY2BulletUP>(nYE-15) && nY2BulletUP<(nYE+15) && nX2BulletSIDE>(nXE-15)&& nX2BulletSIDE<(nXE+15)) {
-                    nScore2+=1000;
+                    nScore2+=5;
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
@@ -289,7 +289,7 @@ class Minigame extends JFrame implements KeyListener {
                     nLooping=1;
                 }
                 else if (nY2BulletUP>(nYE-15) && nY2BulletUP<(nYE+15) && nX2BulletSIDE>(nXE-15)&& nX2BulletSIDE<(nXE+15)) {
-                    nScore2+=1000;
+                    nScore2+=5;
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
@@ -302,7 +302,7 @@ class Minigame extends JFrame implements KeyListener {
                     nLooping=1;
                 }
                 else if (nY2BulletUP>(nYE-15) && nY2BulletUP<(nYE+15) && nX2BulletSIDE>(nXE-15)&& nX2BulletSIDE<(nXE+15)) {
-                    nScore2+=1000;
+                    nScore2+=5;
                     System.out.println("Player1 Score: " + nScore1 + "  Player2 Score: " + nScore2);
                     nLooping=1;
                 }
